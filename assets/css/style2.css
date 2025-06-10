@@ -176,3 +176,93 @@ a:hover {
 .contact__link:hover {
     text-decoration: underline;
 }
+
+
+/* Celulares: hasta 600px */
+@media screen and (max-width: 600px) {
+    .main__projects {
+        grid-template-columns: 1fr;
+    }
+
+    .projects__portfolio {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .portfolio__image {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 0.5rem;
+    }
+}
+
+/* Tablets (iPad): entre 601px y 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .main__projects {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .projects__portfolio {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .portfolio__image {
+        width: 100%;
+        max-width: 90%;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    th, td {
+        padding: 0.75rem;
+    }
+}
+
+/* Laptops: entre 1025px y 1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .main__projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .projects__portfolio {
+        width: 350px;
+    }
+
+    .portfolio__image {
+        width: 250px;
+    }
+
+    table {
+        width: 70%;
+    }
+}
+
+/* Monitores grandes: más de 1440px */
+@media screen and (min-width: 1441px) {
+    .main__projects {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .projects__portfolio {
+        width: 400px;
+    }
+
+    .portfolio__image {
+        width: 300px;
+    }
+
+    table {
+        width: 60%;
+    }
+}
