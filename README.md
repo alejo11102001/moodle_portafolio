@@ -16,15 +16,22 @@ Este proyecto es un portafolio personal desarrollado con HTML y CSS que muestra 
 - CSS3
 - Flexbox y Grid
 - Diseño responsive (adaptado para escritorio, tablet y móvil)
+- excalidraw
 
 ## Maquetación
 
-La estructura del sitio fue desarrollada utilizando buenas prácticas de maquetación web:
+Primera pestaña:
 
-- Se implementó *Flexbox y Grid* para la organización del contenido.
-- Se utilizó un enfoque mobile, asegurando que el sitio sea adaptable a diferentes resoluciones.
-- Todos los elementos interactivos (botones y enlaces) cuentan con *transiciones suaves* para mejorar la experiencia del usuario.
-- El sitio contiene clases organizadas, reutilizables y con nombres semánticos.
+![Captura desde 2025-06-09 19-59-00](https://github.com/user-attachments/assets/329c56c9-7d5d-4e85-ae33-d396e116e77d)
+
+Segunda pestaña:
+
+![Captura desde 2025-06-09 20-07-53](https://github.com/user-attachments/assets/76a0b340-7cda-4dea-bb05-61bc19e90417)
+
+Tercera pestaña:
+
+![Captura desde 2025-06-09 20-10-42](https://github.com/user-attachments/assets/7bdfadae-e577-462b-847c-ab995930c3d2)
+
 
 También puedes explorar los proyectos directamente:
 
