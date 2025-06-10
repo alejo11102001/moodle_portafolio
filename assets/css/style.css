@@ -180,3 +180,81 @@ body {
 .contact__link:hover {
     text-decoration: underline;
 }
+
+/* Celulares: hasta 600px */
+@media screen and (max-width: 600px) {
+    .card__main {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .main__information {
+        grid-template-columns: 1fr;
+    }
+
+    .image__presentation {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .skills__list {
+        column-count: 1;
+    }
+}
+
+/* Tablets (como iPad): entre 601px y 1024px */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .card__main {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .main__information {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .image__presentation {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .skills__list {
+        column-count: 1;
+    }
+}
+
+/* Laptops: entre 1025px y 1440px */
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .card__main {
+        padding: 2rem 3rem;
+    }
+
+    .main__information {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image__presentation {
+        width: 300px;
+    }
+
+    .skills__list {
+        column-count: 2;
+    }
+}
+
+/* Monitores grandes: más de 1440px */
+@media screen and (min-width: 1441px) {
+    .card__main {
+        padding: 3rem 6rem;
+    }
+
+    .main__information {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image__presentation {
+        width: 350px;
+    }
+}
+
+
