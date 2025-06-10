@@ -4,6 +4,27 @@
 
 Este proyecto es un portafolio personal desarrollado con HTML y CSS que muestra información sobre mí como desarrollador, mis habilidades, proyectos realizados y una sección de contacto. Su propósito principal es presentar mis capacidades técnicas y creativas a través de un sitio web visualmente atractivo y funcional.
 
+## Estructura del proyecto
+
+    moodle_portafolio/
+    ├── index.html 
+    ├── assets/
+    │ |── css
+    │   ├── style.css
+    │   ├── style2.css
+    │   └── style3.css
+    | |── images.css
+    |   ├── captura.png
+    |   |── landing.jpg
+    |   ├── sexto.png
+    |   |── webside.png
+    |   └── whatsapp image.jpg
+    ├── src/
+    │ |── html
+    │   ├── contact.html
+    │   └── project.html
+    ├── README
+    
 ## Secciones del Sitio
 
 - *About Me*: Presentación personal, intereses, perfil profesional e imagen.
