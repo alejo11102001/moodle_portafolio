@@ -166,7 +166,7 @@ body {
     box-shadow: 0 15px 15px; 
     transition: background-color 0.3s ease;
     position: relative;
-    animation: desplazar 1s;
+    animation: desplazar 3s;
 }
 
 .section__bye:hover{
