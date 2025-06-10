@@ -181,7 +181,7 @@ body {
     text-decoration: underline;
 }
 
-/* Celulares: hasta 600px */
+/* media queries - cellphone */
 @media screen and (max-width: 600px) {
     .card__main {
         flex-direction: column;
@@ -202,7 +202,7 @@ body {
     }
 }
 
-/* Tablets (como iPad): entre 601px y 1024px */
+/* media queries - ipads */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .card__main {
         flex-direction: column;
@@ -223,7 +223,7 @@ body {
     }
 }
 
-/* Laptops: entre 1025px y 1440px */
+/* media queries - laptops */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     .card__main {
         padding: 2rem 3rem;
@@ -242,7 +242,7 @@ body {
     }
 }
 
-/* Monitores grandes: más de 1440px */
+/* media queries - monitors */
 @media screen and (min-width: 1441px) {
     .card__main {
         padding: 3rem 6rem;

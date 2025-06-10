@@ -178,7 +178,7 @@ a:hover {
 }
 
 
-/* Celulares: hasta 600px */
+/* media queries - cellphone */
 @media screen and (max-width: 600px) {
     .main__projects {
         grid-template-columns: 1fr;
@@ -204,7 +204,7 @@ a:hover {
     }
 }
 
-/* Tablets (iPad): entre 601px y 1024px */
+/* media queries - ipads */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     .main__projects {
         grid-template-columns: 1fr 1fr;
@@ -229,7 +229,7 @@ a:hover {
     }
 }
 
-/* Laptops: entre 1025px y 1440px */
+/* media queries - laptops */
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
     .main__projects {
         grid-template-columns: repeat(2, 1fr);
@@ -248,7 +248,7 @@ a:hover {
     }
 }
 
-/* Monitores grandes: más de 1440px */
+/* media queries - monitors */
 @media screen and (min-width: 1441px) {
     .main__projects {
         grid-template-columns: repeat(3, 1fr);
